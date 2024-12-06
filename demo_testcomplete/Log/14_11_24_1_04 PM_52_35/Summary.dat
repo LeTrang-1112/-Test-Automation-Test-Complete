@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The &quot;D:\KiemThuPhamMem\TestComplete\dataLogin.xlsx&quot; Excel workbook does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem5"/>
+						<Prp name="durationwithoutchildren" type="I" value="1649"/>
+						<Prp name="duration" type="I" value="1649"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEQARgBCADMAMgBEAEIALQA5ADkARABGAC0ANAAzADkANAAtAEIAQwA2ADQALQA4AEIARQA5AEUANQBDADAAMwA0ADUAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="45610.5453570718"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The &quot;D:\KiemThuPhamMem\TestComplete\dataLogin.xlsx&quot; Excel workbook does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem2"/>
+						<Prp name="durationwithoutchildren" type="I" value="15025"/>
+						<Prp name="duration" type="I" value="15025"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEUAQQA1AEUAMwAyADEALQA2ADkAQwBCAC0ANAA2ADMAMQAtAEEANQBCAEMALQA3AEEAOABEADgAMwA0AEUAOQA2ADEANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="45610.5451363889"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The &quot;D:\KiemThuPhamMem\TestComplete\dataLogin.xlsx&quot; Excel workbook does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem3"/>
+						<Prp name="durationwithoutchildren" type="I" value="2147"/>
+						<Prp name="duration" type="I" value="2147"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADUANwAzADAAMwBDAEEALQBBAEEANAA3AC0ANAA5ADIANAAtAEEARQA4AEIALQA5AEEANQA0ADcAMAA2AEMAMgBGAEUANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="45610.5453104051"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="ProjectTestItem1"/>
+						<Prp name="durationwithoutchildren" type="I" value="7698"/>
+						<Prp name="duration" type="I" value="7698"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADAAMQA4ADUANQBGAEEALQAwADgANABFAC0ANAA1AEMAMgAtAEIARQA2AEQALQA0ADkANQAwADQAQgAyADEANgAzAEUARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45610.5450471296"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="ProjectTestItem6"/>
+						<Prp name="durationwithoutchildren" type="I" value="2282"/>
+						<Prp name="duration" type="I" value="2282"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0ADkAMwA4AEUAQwAxADYALQA5ADAANwBCAC0ANAA5AEMAMwAtADkAMABDAEIALQA4ADMAMgA4AEMAOQBFADcANgA3ADQARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45610.5453761574"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The &quot;D:\KiemThuPhamMem\TestComplete\dataLogin.xlsx&quot; Excel workbook does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem4"/>
+						<Prp name="durationwithoutchildren" type="I" value="1869"/>
+						<Prp name="duration" type="I" value="1869"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADMAQQBGADUAOABDADkALQBFAEQAMAAwAC0ANAAyADUARAAtADgAMgA2AEIALQAzADEANgA4AEUAOQBEADQARAAwAEEANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="45610.5453353241"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="demo_testcomplete"/>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="4"/>
+				<Prp name="duration" type="I" value="30670"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45610.5450471296"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="4"/>
+		<Prp name="key" type="S" value="{455DB121-6B94-4F19-9BE5-67355DDDC8FB}"/>
+		<Prp name="stop" type="D" value="45610.5454036227"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="demo_testcomplete"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="host" type="S" value="LAPTOP-215PDMOM"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45610.5450468171"/>
+		<Prp name="name" type="S" value="demo_testcomplete"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="tests" type="I" value="6"/>
+		<Prp name="user" type="S" value="HP"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{0F0EF7E3-1579-488A-8CFA-B109AB4D77E5}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{4D7C45F6-68A3-4AA0-AF0C-910A0747E655}">
+				<Data Description="Create and send an HTTP request with the specified method">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Method" DefVarType="8" VarType="8" ValueType="6" ValueValue="POST" />
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://reqres.in/api/login" />
+						<Parameter Name="User" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Password" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="CheckStatusCode" DefVarType="3" VarType="3" ValueType="1" ValueValue="200" />
+						<Parameter Name="Body" DefVarType="12" VarType="8" ValueType="9" ValueValue="7B000D000A002000200020002000220065006D00610069006C0022003A00200022006500760065002E0068006F006C00740040007200650071007200650073002E0069006E0022002C000D000A0020002000200020002200700061007300730077006F007200640022003A0020002200630069007400790073006C00690063006B00610022000D000A007D00" />
+						<Parameter Name="Header:Content-Type" DefVarType="12" VarType="8" ValueType="6" ValueValue="application/json" />
+						<Parameter Name="Header:Authorization" DefVarType="12" VarType="8" ValueType="6" ValueValue="Bearer QpwL5tke4Pnpja7X4" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{4094D87D-2573-401F-A831-C035CF3533C9}" />
+</Root>

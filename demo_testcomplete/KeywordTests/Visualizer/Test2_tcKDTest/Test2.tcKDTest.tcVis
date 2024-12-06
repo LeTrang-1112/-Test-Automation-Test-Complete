@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{97F521D8-FD95-4E28-909E-1B76FA063FA8}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45600.7101736111" objectName="Aliases.SimpleLoginApp.Form1" objectLeft="0" objectTop="0" objectRight="603" objectBottom="514" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1489343133760.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45600.7102314815" objectName="Aliases.SimpleLoginApp.Form1" objectLeft="0" objectTop="0" objectRight="603" objectBottom="514" clickPointX="300" clickPointY="19" imageFileName="tcvi149376526520.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45600.7102662037" objectName="Aliases.SimpleLoginApp.Form1.groupBox1.txtUsername" objectLeft="204" objectTop="179" objectRight="389" objectBottom="208" clickPointX="314" clickPointY="204" imageFileName="tcvi149676526521.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45600.7102777778" objectName="Aliases.SimpleLoginApp.Form1.groupBox1.txtPassword" objectLeft="204" objectTop="259" objectRight="389" objectBottom="288" clickPointX="309" clickPointY="279" imageFileName="tcvi149798426522.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45600.7102893519" objectName="Aliases.SimpleLoginApp.Form1.btnLogin" objectLeft="191" objectTop="377" objectRight="417" objectBottom="430" clickPointX="300" clickPointY="397" imageFileName="tcvi149934326523.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="45600.7104282407" objectName="Aliases.SimpleLoginApp.Form1" objectLeft="0" objectTop="0" objectRight="603" objectBottom="514" clickPointX="-1" clickPointY="-1" imageFileName="tcvi151157826525.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

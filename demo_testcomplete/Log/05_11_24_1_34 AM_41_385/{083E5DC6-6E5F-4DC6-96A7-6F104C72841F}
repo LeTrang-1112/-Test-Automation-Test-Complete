@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Response status text: OK&#xA;&#xA;Response body:&#xA;{&quot;token&quot;:&quot;QpwL5tke4Pnpja7X4&quot;}&#xA;&#xA;All response headers:&#xA;Connection: keep-alive&#xA;Date: Mon, 04 Nov 2024 18:34:42 GMT&#xA;Via: 1.1 vegur&#xA;Content-Length: 29&#xA;Content-Type: application/json; charset=utf-8&#xA;ETag: W/&quot;1d-lGCrvD6B7Qzk11+2C98+nGhhuec&quot;&#xA;Server: cloudflare&#xA;Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1730745282&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=7f5Ft8sBegzeN%2B3wEv5XV48iB2xNWR8PfdpIzm%2BPgpA%3D&quot;}]}&#xA;Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730745282&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=7f5Ft8sBegzeN%2B3wEv5XV48iB2xNWR8PfdpIzm%2BPgpA%3D&#xA;Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}&#xA;X-Powered-By: Express&#xA;Access-Control-Allow-Origin: *&#xA;cf-cache-status: DYNAMIC&#xA;CF-RAY: 8dd6b31fdbae3fd1-SIN&#xA;server-timing: cfL4;desc=&quot;?proto=TCP&amp;rtt=61761&amp;sent=5&amp;recv=7&amp;lost=0&amp;retrans=0&amp;sent_bytes=3110&amp;recv_bytes=726&amp;delivery_rate=72970&amp;cwnd=228&amp;unsent_bytes=0&amp;cid=1c61e4827d569380&amp;ts=457&amp;x=0&quot;&#xA;&#xA;"/>
+			<Prp name="message" type="S" value="The 'POST' request to 'https://reqres.in/api/login' was sent with the status code 200."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45601.0657681018"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Sending the 'POST' request to 'https://reqres.in/api/login'."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45601.065761331"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{0766B12F-8274-4235-AA78-65A18DBB0D49}"/>
+		</Node>
+		<Node name="child data"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

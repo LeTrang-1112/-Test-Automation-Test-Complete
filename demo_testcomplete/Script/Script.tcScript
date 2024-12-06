@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="KhongNhap" key="{E2482622-6753-4BE8-A5E9-1116010E2248}" path="KhongNhap.js" />
+		<child name="UsernameDung" key="{44A34CF5-E34E-46B4-81F6-A2257CF4662B}" path="UsernameDung.js" />
+		<child name="PassDung" key="{E5F87E1E-6F5F-42E5-BEA2-7F51B1E642B9}" path="PassDung.js" />
+		<child name="UsernamedungPassSai" key="{1DC02653-A08C-4A1B-86F8-6D556F153F5F}" path="UsernamedungPassSai.js" />
+		<child name="PassDungUsernameSai" key="{C18FE854-E9D8-4EDC-8520-1EBECF5EE1B9}" path="PassDungUsernameSai.js" />
+		<child name="dangnhapthanhcong" key="{67F849BB-3489-4421-BF2B-B83E0A95AB2A}" path="dangnhapthanhcong.js" />
+		<child name="all" key="{EADA875D-A4C4-4E0B-BD5F-D17F33CE748D}" path="all.js" />
+	</children>
+</Root>

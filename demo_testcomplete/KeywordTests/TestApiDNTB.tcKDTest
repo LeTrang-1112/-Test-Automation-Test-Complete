@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{5E35EE81-9258-49A1-A2BD-819780C43C48}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{4D7C45F6-68A3-4AA0-AF0C-910A0747E655}">
+				<Data Description="Create and send an HTTP request with the specified method">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Method" DefVarType="8" VarType="8" ValueType="6" ValueValue="POST" />
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://reqres.in/api/login" />
+						<Parameter Name="User" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Password" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="CheckStatusCode" DefVarType="3" VarType="3" ValueType="1" ValueValue="400" />
+						<Parameter Name="Body" DefVarType="12" VarType="8" ValueType="9" ValueValue="7B000D000A002000200020002000220065006D00610069006C0022003A00200022007000650074006500720040006B006C006100760065006E0022000D000A007D00" />
+						<Parameter Name="Header:Content-Type" DefVarType="12" VarType="8" ValueType="6" ValueValue="aplication/json" />
+						<Parameter Name="Header:Authorization" DefVarType="12" VarType="8" ValueType="6" ValueValue="Bearer Missing password" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{6F2FC1CB-AE9F-4465-90FB-25D7A33E40EA}" />
+</Root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{E2482622-6753-4BE8-A5E9-1116010E2248}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45600.7192708333" objectName="Aliases.SimpleLoginApp.Form1.groupBox1.txtUsername" objectLeft="204" objectTop="179" objectRight="389" objectBottom="208" clickPointX="355" clickPointY="188" imageFileName="tcvi2275453182560.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45600.7192939815" objectName="Aliases.SimpleLoginApp.Form1.groupBox1.txtPassword" objectLeft="204" objectTop="259" objectRight="389" objectBottom="288" clickPointX="343" clickPointY="269" imageFileName="tcvi2276718182561.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="45600.7193055556" objectName="Aliases.SimpleLoginApp.Form1.btnLogin" objectLeft="191" objectTop="378" objectRight="417" objectBottom="431" clickPointX="358" clickPointY="396" imageFileName="tcvi2278062182562.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="16" kind="0" dateTime="45600.7193865741" objectName="Aliases.SimpleLoginApp.Form1" objectLeft="0" objectTop="0" objectRight="603" objectBottom="514" clickPointX="-1" clickPointY="-1" imageFileName="tcvi2285500182563.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

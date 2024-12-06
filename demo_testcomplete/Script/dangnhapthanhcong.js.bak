@@ -1,0 +1,27 @@
+﻿function data(){
+  var path = "D:\\KiemThuPhamMem\\TestComplete\\dataLogin.xlsx";
+  var sheet = "thanhcong";
+  var excel = DDT.ExcelDriver(path,sheet);
+  while(!excel.EOF())
+  {
+    var pass = excel.Value("pass");
+    var user = excel.Value("username");
+    Test1(user,pass);
+    excel.Next();
+  }
+}
+function Test1(user,pass)
+{
+  TestedApps.SimpleLoginApp.Run(1, true);
+  let form1 = Aliases.SimpleLoginApp.Form1;
+  let groupBox = form1.groupBox1;
+  let textBox = groupBox.txtUsername;
+  textBox.Click(118, 8);
+  textBox.SetText(user);
+  textBox = groupBox.txtPassword;
+  textBox.Click(94, 13);
+  textBox.SetText(pass);
+  form1.btnLogin.ClickButton();
+  aqObject.CheckProperty(groupBox.lblMessage, "Text", cmpEqual, "Đăng nhập thành công!");
+  form1.Close();
+}

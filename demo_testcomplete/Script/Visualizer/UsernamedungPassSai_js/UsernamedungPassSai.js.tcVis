@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{1DC02653-A08C-4A1B-86F8-6D556F153F5F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="17" kind="0" dateTime="45600.7258449074" objectName="Aliases.SimpleLoginApp.Form1.groupBox1.txtUsername" objectLeft="204" objectTop="179" objectRight="389" objectBottom="208" clickPointX="-196" clickPointY="-196" imageFileName="tcvi2842343205080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="19" kind="0" dateTime="45600.7258564815" objectName="Aliases.SimpleLoginApp.Form1.groupBox1.txtPassword" objectLeft="204" objectTop="259" objectRight="389" objectBottom="288" clickPointX="306" clickPointY="268" imageFileName="tcvi2844468205081.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="20" kind="0" dateTime="45600.7259027778" objectName="Aliases.SimpleLoginApp.Form1.groupBox1.txtPassword" objectLeft="204" objectTop="259" objectRight="389" objectBottom="288" clickPointX="-196" clickPointY="-196" imageFileName="tcvi2847312205082.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="21" kind="0" dateTime="45600.7259143519" objectName="Aliases.SimpleLoginApp.Form1.btnLogin" objectLeft="191" objectTop="378" objectRight="417" objectBottom="431" clickPointX="296" clickPointY="404" imageFileName="tcvi2849078205083.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="30" kind="0" dateTime="45600.7260069444" objectName="Aliases.SimpleLoginApp.Form1" objectLeft="0" objectTop="0" objectRight="603" objectBottom="514" clickPointX="-1" clickPointY="-1" imageFileName="tcvi2856968205084.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

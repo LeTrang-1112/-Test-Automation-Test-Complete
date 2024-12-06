@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{DFD11DA6-5791-46B1-B72A-6CB60E723D45}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{0B30C641-D996-45C4-B4E4-91FD9E04AFA4}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{009C582F-58B2-4330-A645-863EB274DD64}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{89C16D42-0642-434E-9C54-B4209F3DC733}">
+										<TypeInfo Item0="{8DC89E71-197C-4E0B-A20E-14608A7640DD}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="SimpleLoginApp" Key="{0219C679-2132-4E1F-8236-5A6EF398F45A}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="SimpleLoginApp" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Form1" Key="{7D185845-A677-4C42-8F4D-AF8A984B60DF}">
+								<Image FileName="2105783727" Left="0" Top="0" Right="603" Bottom="514" />
+								<TypeInfo Item0="{5007F883-856F-4167-ABF0-0913C1AC4C7A}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="Form1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="groupBox1" Key="{290DBAA7-E710-44D3-83BB-7983683D6DD5}">
+										<Image FileName="1041768336" Left="44" Top="106" Right="564" Bottom="336" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="groupBox1" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="txtUsername" Key="{2A4C42C7-0D4E-4112-B593-A94E1EC14E11}">
+												<Image FileName="1041768336" Left="204" Top="179" Right="389" Bottom="208" />
+												<TypeInfo Item0="{C2B4E747-0B59-48C9-B8DE-E369336A0530}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="txtUsername" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="txtPassword" Key="{E391ED61-4F58-43BD-9479-D767ABCCD92E}">
+												<Image FileName="1083219208" Left="204" Top="259" Right="389" Bottom="288" />
+												<TypeInfo Item0="{C2B4E747-0B59-48C9-B8DE-E369336A0530}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="txtPassword" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="lblMessage" Key="{1A9F9748-4691-42B7-AAE4-172578302E25}">
+												<Image FileName="2128006119" Left="199" Top="129" Right="548" Bottom="150" />
+												<TypeInfo Item0="{8DC89E71-197C-4E0B-A20E-14608A7640DD}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="lblMessage" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnLogin" Key="{BEA0EF35-DCE6-43DE-9B0C-D3E5DB367AA8}">
+										<Image FileName="-1407263000" Left="191" Top="377" Right="417" Bottom="430" />
+										<TypeInfo Item0="{84918E57-8187-4EDF-867B-3AEEC17D0BB0}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="btnLogin" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{0B30C641-D996-45C4-B4E4-91FD9E04AFA4}">
+			<Child Name="wndShell_TrayWnd" Owner="{009C582F-58B2-4330-A645-863EB274DD64}">
+				<Child Name="DesktopWindowXamlSource" Owner="{89C16D42-0642-434E-9C54-B4209F3DC733}" />
+			</Child>
+		</Child>
+		<Child Name="SimpleLoginApp" Owner="{0219C679-2132-4E1F-8236-5A6EF398F45A}">
+			<Child Name="Form1" Owner="{7D185845-A677-4C42-8F4D-AF8A984B60DF}">
+				<Child Name="groupBox1" Owner="{290DBAA7-E710-44D3-83BB-7983683D6DD5}">
+					<Child Name="txtUsername" Owner="{2A4C42C7-0D4E-4112-B593-A94E1EC14E11}" />
+					<Child Name="txtPassword" Owner="{E391ED61-4F58-43BD-9479-D767ABCCD92E}" />
+					<Child Name="lblMessage" Owner="{1A9F9748-4691-42B7-AAE4-172578302E25}" />
+				</Child>
+				<Child Name="btnLogin" Owner="{BEA0EF35-DCE6-43DE-9B0C-D3E5DB367AA8}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

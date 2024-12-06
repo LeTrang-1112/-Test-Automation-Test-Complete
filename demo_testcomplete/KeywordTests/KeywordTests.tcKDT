@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="TestApiDNTC" key="{0766B12F-8274-4235-AA78-65A18DBB0D49}" path="TestApiDNTC.tcKDTest" />
+		<child name="TestApiDNTB" key="{A6DD8152-C19E-4878-BCFA-7D26B952C1D7}" path="TestApiDNTB.tcKDTest" />
+	</children>
+</Root>
