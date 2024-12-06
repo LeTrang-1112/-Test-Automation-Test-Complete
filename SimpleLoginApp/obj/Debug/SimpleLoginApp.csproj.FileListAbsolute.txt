@@ -1,0 +1,10 @@
+D:\LT_C#\SimpleLoginApp\SimpleLoginApp\bin\Debug\SimpleLoginApp.exe.config
+D:\LT_C#\SimpleLoginApp\SimpleLoginApp\bin\Debug\SimpleLoginApp.exe
+D:\LT_C#\SimpleLoginApp\SimpleLoginApp\bin\Debug\SimpleLoginApp.pdb
+D:\LT_C#\SimpleLoginApp\SimpleLoginApp\obj\Debug\SimpleLoginApp.csproj.AssemblyReference.cache
+D:\LT_C#\SimpleLoginApp\SimpleLoginApp\obj\Debug\SimpleLoginApp.Form1.resources
+D:\LT_C#\SimpleLoginApp\SimpleLoginApp\obj\Debug\SimpleLoginApp.Properties.Resources.resources
+D:\LT_C#\SimpleLoginApp\SimpleLoginApp\obj\Debug\SimpleLoginApp.csproj.GenerateResource.cache
+D:\LT_C#\SimpleLoginApp\SimpleLoginApp\obj\Debug\SimpleLoginApp.csproj.CoreCompileInputs.cache
+D:\LT_C#\SimpleLoginApp\SimpleLoginApp\obj\Debug\SimpleLoginApp.exe
+D:\LT_C#\SimpleLoginApp\SimpleLoginApp\obj\Debug\SimpleLoginApp.pdb
